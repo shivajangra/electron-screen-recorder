@@ -2,7 +2,7 @@
   "name": "electron-screen-recorder",
   "description": "Screen Recorder",
   "version": "0.0.3",
-  "author": "hokein",
+  "author": "shiva jangra",
   "license": "BSD",
   "keywords": [
     "Electron",
@@ -13,6 +13,9 @@
   "main": "src/main.js",
   "bin": {
     "electron-screen-recorder": "./launch.js"
+  },
+  "scripts":{
+   "start":"electron ."  
   },
   "dependencies": {
     "domify": "^1.4.0",
