@@ -11,8 +11,9 @@ as `webm`.
 ## Using
 
 ```sh
+npm install
 npm install -g electron-screen-recorder
-electron-screen-recorder
+npm start
 ```
 
 ## License
